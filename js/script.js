@@ -31,5 +31,4 @@ var ctx = canvas.getContext ('2d');
    ctx.stroke();
 
    //Imagem 
-   let img = document.querySelector('img');
-    ctx.drawImage(img,50,10);
+  
