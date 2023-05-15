@@ -24,5 +24,12 @@ var ctx = canvas.getContext ('2d');
     ctx.fill()
     ctx.stroke();
     
-    //Linhas e Curvas (coração)
-    ctx.arc(100,75,50,0*Math.PI,1.5*Math.PI);
+   //Linha
+   ctx.moveTo(0,0);
+   ctx.lineTo(0,300)
+   ctx.lineTo(1500,300);
+   ctx.stroke();
+
+   //Imagem 
+   let img = document.querySelector('img');
+    ctx.drawImage(img,50,10);
