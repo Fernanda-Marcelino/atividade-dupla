@@ -1,6 +1,6 @@
 var canvas = document.getElementById ('canvas1');
 var ctx = canvas.getContext ('2d');
-    
+
     
     //Retângulo
     ctx.fillStyle = "red";
@@ -31,4 +31,9 @@ var ctx = canvas.getContext ('2d');
    ctx.stroke();
 
    //Imagem 
-  
+   const img = new Image();
+   img.onload = () => {
+    ctx.drawImage(img, 0, 300);
+   };
+   img.src = 'img/cat.jpg';
+   
