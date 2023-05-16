@@ -1,4 +1,4 @@
-# atividade-dupl
+# atividade-dupla
 Fernanda Viana e Isabella Correia
 
     HTML
@@ -45,3 +45,4 @@ Fernanda Viana e Isabella Correia
 
 
 
+![Captura de tela 2023-05-16 195134](https://github.com/Fernanda-Marcelino/atividade-dupla/assets/128320607/ee5b2af7-0dac-41d2-bdaa-f4260d8aed78)
